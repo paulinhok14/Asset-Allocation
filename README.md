@@ -1,4 +1,4 @@
-### **Asset Allocation Model**
+## **Asset Allocation Model**
 
 I created this model for a personal purpose, but feel free to use it if useful.
 
@@ -12,6 +12,7 @@ As soon as a Start and End Date is defined (01-01-2013 -> 20-10-2023 in the exam
 
 In addition to the historical variation plot, the Average Returns, Standard Deviation, and also the Covariance between the 4 asset classes are calculated.
 
+![Return and Risk Assets](src/return_and_risk_assets.png)
 ![Correlation Matrix](src/correlation_matrix.png)
 
 Given the assets characteristics, a N number of simulations are randomly executed (6000 in the example) changing portfolio weights and positioning return and risk on a scatter chart:
