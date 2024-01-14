@@ -42,8 +42,20 @@ After that, I've included a feature in which you can simulate a portfolio (Your 
 
 ![Custom Portfolio](src/custom_portfolio.png)
 
+This is my custom portfolio Expected Return and Expected Risk. Considering the results a normal and symmetrical distribution, here are more N (1000 in the example) simulations and distribution on return and risk for the same custom portfolio weights.
+
+![Custom Portfolio Expected Results](src/custom_portf_expected_results.png)
+
+You can note in the scatterplot that my portfolio position is not touching Efficient Frontier Line. And for all portfolios, there is 2 ways to boost results optimizing the allocation weights: 1- Maintaining the same Risk Level and enhancing Return Level, so the function shows the optimized allocation:
+
+![Custom Optimized Return](src/custom_optimized_return.png)
 
 
+And also there is the option of 2- Achieving a lower Risk Level for the same Return:
+
+![Custom Optimized Risk](src/custom_optimized_risk.png)
+
+IMPORTANT: It is
 
 
 
