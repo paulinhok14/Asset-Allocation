@@ -55,11 +55,11 @@ And also there is the option of 2- Achieving a lower Risk Level for the same Ret
 
 ![Custom Optimized Risk](src/custom_optimized_risk.png)
 
-OBS: It is important to make some reservations:
+## OBS: It is important to make some reservations
 - Nothing here is an investment recommendation
 - Make sure you understand the model limitations
-- I've set 2013 mainly because this is the oldest data for IFIX. Maybe it is prudent in any time to consider another index for Real Estate. IFIX Data is on a excel spreadsheet on repo. I didn't found IFIX data in YahooFinance so I used GoogleFinance/GoogleSheets.
-- These years were particularly bad for Brazil, so keep in mind that it have impact on Risk-Free (fixed income). Try different date frames on filtering Start Date and End Date.
+- I've set 2013 mainly because this is the oldest data for IFIX. Maybe it is prudent in any time to consider another index for Real Estate. IFIX Data is on a excel spreadsheet on repo. I didn't found IFIX data on YahooFinance so I used GoogleFinance/GoogleSheets.
+- These years were particularly bad for Brazil, so keep in mind that it have impact on Risk-Free (fixed income). Try different date frames by filtering Start Date and End Date.
 
 
 
