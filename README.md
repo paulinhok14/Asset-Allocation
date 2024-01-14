@@ -29,6 +29,21 @@ The optimized allocation for a Maximum Sharpe portfolio would be:
 ![Optimized Max Sharpe](src/optimized_maximum_sharpe.png)
 ![Portfolios with Max Sharpe](src/portfolios_with_max_sharpe.png)
 
+All the portfolio simulations so far considers CDI (fixed income) a Risk-Free rate, so it was removed from covariance model. Now we add CDI as Risk-Free Rate on portfolios chart, making it Complete on a capital allocation line point of view: (risk 0 although it has a little bit higher standard deviation returns, let's say, 2%)
+
+![Complete Optimized Portfolio](src/complete_optimized_portfolio.png)
+
+After that, I've included a feature in which you can simulate a portfolio (Your Portfolio) and check it's expected return and expected risk. Given your input weights for each asset class, the covariance matrix is considered on pondering it for each Average Return and Standard Deviation statistics. In my example, I've set the string '[0.35, 0.15, 0.25, 0.25]', that is:
+
+- 35% IBOV
+- 15% IVV
+- 25% IFIX
+- 25% CDI
+
+![Custom Portfolio](src/custom_portfolio.png)
+
+
+
 
 
 
