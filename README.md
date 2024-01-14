@@ -18,3 +18,17 @@ In addition to the historical variation plot, the Average Returns, Standard Devi
 Given the assets characteristics, a N number of simulations are randomly executed (6000 in the example) changing portfolio weights and positioning return and risk on a scatter chart:
 
 ![Portfolios Simulation](src/portfolios_simulation.png)
+
+Given these portfolios, it is possible to know the optimized allocation (weights) to produce a specific result, the Minimum Risk Portfolio for example:
+
+![Optimized Min Risk](src/optimized_minimum_risk.png)
+![Portfolios with Min Risk](src/portfolios_with_min_risk.png)
+
+The optimized allocation for a Maximum Sharpe portfolio would be:
+
+![Optimized Max Sharpe](src/optimized_maximum_sharpe.png)
+![Portfolios with Max Sharpe](src/portfolios_with_max_sharpe.png)
+
+
+
+
