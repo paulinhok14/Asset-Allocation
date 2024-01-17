@@ -1,6 +1,6 @@
 ## **Asset Allocation Model**
 
-I created this model for a personal purpose, but feel free to use it if useful.
+Model created for a personal purpose.
 
 The asset allocation model consists of using libraries and APIs such as YahooFinance, GoogleFinance and also Brazilian Central Bank open data.
 
